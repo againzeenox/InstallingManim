@@ -44,8 +44,13 @@ manim basic.py SquareToCircle -pqm
 choco install miktex.install
 ````
 
-## Method 2
-#### Run in an administrative terminal
+## Method 2(PACKAGE)
+#### 1. Run in an administrative terminal
 ````PS
 choco install manim-latex
+````
+## Method 3(TinyTex)
+#### Run in an administrative terminal
+````PS
+choco install tinytex
 ````
