@@ -49,8 +49,22 @@ choco install miktex.install
 ````PS
 choco install manim-latex
 ````
-## Method 3(TinyTex)
+## Method 3(TinyTex)[PREFERRED]
 #### Run in an administrative terminal
 ````PS
 choco install tinytex
+````
+# Installing LaTeX packages
+#### After installing TinyTex, Run these 4 commands one after the other
+````PS
+tlmgr install amsmath babel-english cbfonts-fd cm-super ctex doublestroke dvisvgm everysel
+````
+````PS
+tlmgr install fontspec frcursive fundus-calligra gnu-freefont jknapltx latex-bin
+````
+````PS
+tlmgr install mathastext microtype ms physics preview ragged2e relsize rsfs
+````
+````PS
+tlmgr install setspace standalone tipa wasy wasysym xcolor xetex xkeyval
 ````
