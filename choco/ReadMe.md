@@ -17,7 +17,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #### 2. Launch the installer and install Python(MAKE SURE TO ADD TO PATH)
 
 # Install `ffmpeg`
-#### 1. Run 
+#### 1. Run in administrative terminal
+
 ```PS
 choco install ffmpeg
 ```
