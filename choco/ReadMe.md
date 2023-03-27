@@ -15,3 +15,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # Install `Python`
 #### 1. Click [here](https://www.python.org/downloads/windows/) and install any python version between 3.7 to 3.10
 #### 2. Launch the installer and install Python(MAKE SURE TO ADD TO PATH)
+
+# Install `ffmpeg`
+#### 1. Run 
+```PS
+choco install ffmpeg
+```
