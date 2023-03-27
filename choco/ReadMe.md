@@ -55,7 +55,10 @@ choco install manim-latex
 choco install tinytex
 ````
 # Installing LaTeX packages
-#### After installing TinyTex, Run these 4 commands one after the other
+#### After installing TinyTex, Run these 5 commands one after the other
+````PS
+refreshenv
+````
 ````PS
 tlmgr install amsmath babel-english cbfonts-fd cm-super ctex doublestroke dvisvgm everysel
 ````
