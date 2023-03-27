@@ -36,3 +36,9 @@ choco install manimce
 ````PS
 manim basic.py SquareToCircle -pqm
 ````
+
+# Install `MikTex`(optional)
+#### 1. Run 
+````PS
+choco install miktex.install
+````
