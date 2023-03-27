@@ -27,3 +27,18 @@ choco install ffmpeg
 ```PS
 choco install manimce
 ```
+# Install `wget`
+#### 1. Run 
+```PS
+pip install wget
+```
+
+#Test ManimCE:
+#### 1. Run 
+````PS
+wget https://raw.githubusercontent.com/ManimCommunity/manim/main/example_scenes/basic.py
+````
+#### 2. Run
+````python
+manim basic.py SquareToCircle -pqm
+````
