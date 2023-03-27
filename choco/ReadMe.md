@@ -22,3 +22,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```PS
 choco install ffmpeg
 ```
+# Install `ManimCE`
+#### 1. Simply run in an administrative terminal
+```PS
+choco install manimce
+```
