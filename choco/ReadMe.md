@@ -33,7 +33,7 @@ choco install manimce
 pip install wget
 ```
 
-#Test ManimCE:
+# Test ManimCE:
 #### 1. Run 
 ````PS
 wget https://raw.githubusercontent.com/ManimCommunity/manim/main/example_scenes/basic.py
