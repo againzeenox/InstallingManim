@@ -71,3 +71,9 @@ tlmgr install mathastext microtype ms physics preview ragged2e relsize rsfs
 ````PS
 tlmgr install setspace standalone tipa wasy wasysym xcolor xetex xkeyval
 ````
+# Testing LaTeX
+#### 1. Open a cmd terminal in the directory where `basic.py` is saved
+#### 2. Run 
+````python
+manim basic.py WriteStuff -pqm
+````
