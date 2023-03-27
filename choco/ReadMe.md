@@ -74,6 +74,9 @@ tlmgr install setspace standalone tipa wasy wasysym xcolor xetex xkeyval
 # Testing LaTeX
 #### 1. Open a cmd terminal in the directory where `basic.py` is saved
 #### 2. Run 
+````PS
+refreshenv 
+````
 ````python
 manim basic.py WriteStuff -pqm
 ````
