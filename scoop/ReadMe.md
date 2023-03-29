@@ -34,19 +34,18 @@ manim basic.py SquareToCircle -pqm
 ## Method 1
 #### 1. Run in an administrative terminal
 ````PS
-choco install miktex.install
+scoop install latex
 ````
 
-## Method 2(PACKAGE)
-#### 1. Run in an administrative terminal
-````PS
-choco install manim-latex
-````
-## Method 3(TinyTex)[PREFERRED]
+## Method 2(TinyTex)[PREFERRED]
 #### Run in an administrative terminal
 ````PS
-choco install tinytex
+scoop bucket add r-bucket https://github.com/cderv/r-bucket.git
 ````
+then
+````PS
+scoop install tinytex
+ ````
 # Installing LaTeX packages
 #### After installing TinyTex, Run these 5 commands one after the other
 ````PS
