@@ -1,4 +1,4 @@
-# Install Scoop
+# Install `Scoop`
 #### 1. Run in powershell
 ````PS
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -8,3 +8,15 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 ````
 
+# Install `python` + `ffmpeg`
+
+#### Run:
+````PS
+scoop install python ffmpeg
+````
+
+# Install `ManimCE`
+#### Run:
+````PS
+python -m pip install manim
+````
